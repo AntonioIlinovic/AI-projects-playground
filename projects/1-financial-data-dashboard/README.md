@@ -20,7 +20,7 @@ uv add <package-name>
 
 ```bash
 # Run the main script
-uv run python src/main.py
+uv run src/main.py
 
 # Or activate environment first
 source .venv/bin/activate

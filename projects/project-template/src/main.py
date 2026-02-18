@@ -19,11 +19,7 @@ def main():
         print("OpenAI API key is configured")
     else:
         print("OpenAI API key not found in environment")
-    
-    debug = os.getenv("DEBUG", "False").lower() == "true"
-    if debug:
-        print("Debug mode is enabled")
-
+        
 
 if __name__ == "__main__":
     main()
